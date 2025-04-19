@@ -1,7 +1,7 @@
 form {
     display: flex;
     flex-direction: column;
-    gap: 1.25;
+    gap: 1.25rem;
 }
 .campo {
     position: relative;
@@ -26,28 +26,11 @@ form {
     outline: none;
     transition: border color 0.2s ease;
 }
-.campo i{
-    position: absolute;
-    left: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--cor-placeholder);
-    font-size: 1.25rem;
-}
-.campo input {
-    width: 100px;
-    padding: 0.75rem 1rem 0.75rem 2.5rem;
-    border-radius: var( --borda-arredondada);
-    border: 1px solid var(--cor-borda) ;
-    background-color: transparent;
-    color: var(--cor-borda);
-    outline: none;
-    transition: border color 0.2s ease;
-    
-}
+
 .campo input:focus {
     border-color: var(--cor-primaria);
 }
+
 button {
     background-color: var(--cor-primaria);
     color: white;
