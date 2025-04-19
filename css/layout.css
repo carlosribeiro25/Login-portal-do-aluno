@@ -3,7 +3,6 @@
     padding: 2rem;
     border-radius: var(--borda-arredondada-grande);
     box-shadow: var(--sombra-fraca);
-    width: 100%;
     max-width: 400px;
 }
 
