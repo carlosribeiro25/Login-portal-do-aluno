@@ -27,8 +27,33 @@ form {
     transition: border color 0.2s ease;
 }
 
+
 .campo input:focus {
     border-color: var(--cor-primaria);
+}
+.esqueci-senha a {
+    text-align: left;
+    display: block;
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: var(--cor-primaria);
+    transition: color 0.2s ease;
+}
+.esqueci-senha:hover a{
+    color: var(--cor-subtexto);
+}
+
+input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+    border: solid 1px var(--cor-texto);
+    appearance: none;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked {
+    background-color: var(--cor-primaria);
 }
 
 button {
