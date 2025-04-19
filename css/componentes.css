@@ -12,7 +12,7 @@ form {
     left: 1rem;
     top: 50%;
     transform: translateY(-50%);
-    color: var(--cor-placeholder);
+    color: var(--cor-texto);
     font-size: 1.25rem;
 }
 
@@ -23,6 +23,7 @@ form {
     border: 1px solid var(--cor-texto);
     outline: none;
     transition: border color 0.2s ease;
+
 }
 
 .campo input:focus {
